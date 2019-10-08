@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    list-style-position: inside;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    text-align: center;
+    width:55%;
+    margin-right:2%;
+    float: right;
+    margin: auto;
+    background-image: url("images/background1.jpg");
+    background-color: #cccccc;
+    height: auto;
+    line-height: auto;
+    border-style: solid;
+    border-color: rgb(20, 14, 5);
+    border-width: 10px;
+}
+.main h1 {
+    border-color: rgb(20, 14, 5);
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    border-width: 10px;
+    padding: 10px;
+    width:90%;
+    background-image:url();
+    background-color: rgb(151, 149, 121);
+}
+.a {
+    border-color: rgb(20, 14, 5);
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    border-width: 10px;
+    padding: 10px;
+    width:90%;
+    background-image:url();
+    background-color: rgb(151, 149, 121);
+}
+.bb {
+    border-color: rgb(20, 14, 5);
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    border-width: 10px;
+    padding: 10px;
+    width:90%;
+    background-image:url();
+    background-color: rgb(151, 149, 121);
+}
+.c {
+    border-color: rgb(20, 14, 5);
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    border-width: 10px;
+    padding: 10px;
+    width:90%;
+    background-image:url();
+    background-color: rgb(151, 149, 121);
+}
+.d {
+    border-color: rgb(20, 14, 5);
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    border-width: 10px;
+    padding: 10px;
+    width:90%;
+    background-image:url();
+    background-color: rgb(151, 149, 121);
+}
+.e {
+    border-color: rgb(20, 14, 5);
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    border-width: 10px;
+    padding: 10px;
+    width:90%;
+    background-image:url();
+    background-color: rgb(151, 149, 121);
+}
+.f {
+    border-color: rgb(20, 14, 5);
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    border-width: 10px;
+    padding: 10px;
+    width:90%;
+    background-image:url();
+    background-color: rgb(151, 149, 121);
+}
+.g {
+    border-color: rgb(20, 14, 5);
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    border-width: 10px;
+    padding: 10px;
+    width:90%;
+    background-image:url();
+    background-color: rgb(151, 149, 121);
+}
+.gator {
+ position: fixed;
+ top: 36%;
+ bottom: 0%;
+ left: 17%;
+border-radius: 100%;
+}
+.proftxt1 {
+    color:white;
+    position: fixed;
+    top: 26%;
+    bottom: 0%;
+    left: 16%;
+   border-radius: 100%;
+   }

@@ -1,0 +1,23 @@
+body{
+
+	background-image: url(images/1.jpg);
+	background-size: 53%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.bar{
+ position: relative;
+}
+
+#name {
+	margin-top: 150px;
+	margin-right: 500px;
+	margin-left: 700px;
+	width: 600px;
+	color: #968e77;
+}
+
+.title1 { font-weight: bold; font-family: Comic Sans MS; font-size:25px; 
+	letter-spacing: 1px; text-shadow: 2px 3px 5px;            }
+.loc { font-family: Comic Sans MS ; font-size: 15px; letter-spacing: 1px; text-shadow: 2px 3px 4px;}

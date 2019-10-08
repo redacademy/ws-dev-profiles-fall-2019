@@ -1,0 +1,135 @@
+body{
+	background-color: #f4f4f4;
+	color: #666666;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+body{
+
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+.button {
+
+		color:white;
+		background-color: green;
+		
+	}
+
+
+
+.container {
+	width: 80%
+	margin:10% auto;
+}
+header { background-color: #55d6aa;
+ }
+ 
+header::after{
+	content: '';
+	display: table;	
+	clear: both;
+
+}
+
+ .logo {
+ 	float:left;
+ }
+
+ nav {
+ 	float:right;
+ }
+
+ nav ul {
+ 	margin: 30px;
+ 	padding: 0;
+ 	list-style: none;
+ }
+
+ nav li{ 
+
+ 	display: inline-block;
+ 	margin-right: 70px;
+ 	padding-top:27px;
+
+ 	position: relative;
+
+  }
+
+ nav a {
+ 	color: #444;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #000; 
+}
+
+nav a::before {
+
+	content: '';
+	display: block;
+	height: 5px;
+	width:0%;
+	background-color: #444;
+
+	top: 0;
+
+	transition: all ease-in-out 200ms;
+
+
+}
+
+nav a:hover::before {
+	
+}
+
+
+.Footer {
+
+	font-size:13px;
+	font-family: fantasy;
+}
+
+.container {
+
+	font-style: oblique;
+	font-size: 24px;
+} 
+
+.Container1 {
+
+	padding-left: 30px;
+	padding-bottom: 80px;
+	font-size: 22px;
+	font-color: #000000;
+
+}
+
+
+.container2 {
+
+	padding-left:30px;
+	padding-bottom:550px;
+	font-size:28px;
+	font-family: sans-serif;
+	text-emphasis: 23px;
+	text-emphasis-color: #666666;
+
+}
+
+.textbox123{
+
+	padding-top: 60px;
+}
+
+.Footer {
+
+	      font-size: 40px;
+	      font-family: fantasy;
+}

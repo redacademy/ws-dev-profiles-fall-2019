@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RED-MayuImanaka-profile-prework</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ress.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/be014b79a7.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        //fadein
+        $(function () {
+            $(window).scroll(function () {
+                $('.fadein').each(function () {
+                    var elemPos = $(this).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var windowHeight = $(window).height();
+                    if (scroll > elemPos - windowHeight + 200) {
+                        $(this).addClass('scrollin')
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="shareLink">
+            <a href="https://www.instagram.com/mayu_cuuuu/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Mayu-I" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <header class="header">
+            <div class="header__passing">
+                <div class="header__passingBox">
+                    <div class="header__passingBar">
+                        <h1 class="header__passingTxt">Hi! I'm<br>MAYU<br>IMANAKA</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="header__icon header__icon--pc">
+                <img src="images/header__icon.jpg" alt="Mayu Imanaka's icon">
+            </div>
+            <div class="header__icon header__icon--sp">
+                <img src="images/header__icon--sp.jpg" alt="Mayu Imanaka's icon">
+            </div>
+        </header>
+        <div class="arrow">
+            <span></span>
+        </div>
+        <div class="content">
+            <div class="info">
+                <div class="info__content">
+                    <h2 class="info__title fadein">About Me</h2>
+                    <ul class="info__list">
+                        <li class="info__listContent fadein">Home Town &#8594; Tokyo, Japan</li>
+                        <li class="info__listContent fadein">Age &#8594; 19<i class="fas fa-poo"></i></li>
+                    </ul>
+                    <h2 class="info__title fadein">Life Before RED</h2>
+                    <div class="info__flex fadein">
+                        <p class="info__text">I went to Vancouver
+                            to
+                            study
+                            English for 5 months, after I graduated from a Japanese high school.<br>And then I came
+                            back to Japan, I worked as a Front-end
+                            Developer
+                            for 1 year. I
+                            was a beginner in coding when I started that job, now I know about HTML, CSS, SASS, JS and
+                            a
+                            little Git.</p>
+                        <div class="info__img "><img src="images/info__img01.jpg" alt="info1"><img src="images/info__img02.jpg"
+                                alt="info2"></div>
+                    </div>
+                    <h2 class="info__title fadein">My Plans</h2>
+                    <div class="info__flex fadein">
+                        <div class="info__img ">
+                            <iframe src="https://giphy.com/embed/X8MntqAmjiN5C" frameBorder="0" class="giphy-embed"></iframe>
+                        </div>
+                        <p class="info__text">After Red, I would like to get a job of a Full-stack developer in
+                            Vancouver. While I polish up skills in the company, I'll try to get Canada PR. </p>
+                    </div>
+                    <h2 class="info__title fadein">My Hobbies</h2>
+                    <div class="info__flex info__hobby fadein">
+                        <div class="info__hobbyContent">
+                            <h3 class="info__hobbyTitle">Travelling</h3>
+                            <img src="images/info__img03.jpg" alt="Travelling">
+                            <p class="info__hobbyText">I love to experience the other countrie's culture. I want to
+                                travel around the world someday.</p>
+                        </div>
+                        <div class="info__hobbyContent">
+                            <h3 class="info__hobbyTitle">Cycling</h3>
+                            <img src="images/info__img04.jpg" alt="Cycling">
+                            <p class="info__hobbyText">I just bought a bike recently. It's going to be my new
+                                hobby in
+                                vancouver!</p>
+                        </div>
+                        <div class="info__hobbyContent">
+                            <h3 class="info__hobbyTitle">Watching TV</h3>
+                            <img src="images/info__img05.jpg" alt="Watching TV">
+                            <p class="info__hobbyText">When it's rainy day, I'm watching NETFLIX all day. I'm into
+                                'Shameless' right now.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info__footer fadein">
+                    <div class="circle circle--blue"></div>
+                    <div class="circle circle--red"></div>
+                    <h3 class="info__footerText">Thank you for reading!<br>That's all about me.<br>I'm looking forward
+                        to
+                        studying at RED Academy!</h3>
+                </div>
+            </div>
+            <!--info-->
+        </div>
+        <!--content-->
+    </div>
+</body>
+
+</html>
