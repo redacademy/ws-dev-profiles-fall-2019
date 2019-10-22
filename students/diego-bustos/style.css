@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 3%;
+  
+  background-color: black;
+  color: rgb(255, 255, 253);
+}
+h1{
+  align-items: center;
+  font-size: 10em;
+}
+
+h2{
+  padding: 1%;
+}
+
+.mainWrapper{
+
+    color: rgb(255, 255, 253);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+
+}
